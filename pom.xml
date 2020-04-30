@@ -39,7 +39,7 @@
                                 <!-- for  run class or classes-->
                                 <include>**/SmokeTestRunner*.java</include>
                             </includes>
-                            <testFailureIgnore>false</testFailureIgnore>
+                            <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
                     </plugin>
                 </plugins>
@@ -70,7 +70,7 @@
                                 <!-- for  run class or classes-->
                                 <include>**/RegressionRunner.java</include>
                             </includes>
-                            <testFailureIgnore>false</testFailureIgnore>
+                            <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
                     </plugin>
                 </plugins>
