@@ -66,7 +66,7 @@
                             <!-- for parallel running Cucumber-->
                             <parallel>methods</parallel>
                             <useUnlimitedThreads>false</useUnlimitedThreads>
-                            <threadCount>2</threadCount>
+                            <threadCount>1</threadCount>
                             <includes>
                                 <!-- for  run class or classes-->
                                 <include>**/RegressionRunner.java</include>
