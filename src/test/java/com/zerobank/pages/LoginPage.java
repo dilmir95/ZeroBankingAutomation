@@ -1,5 +1,6 @@
 package com.zerobank.pages;
 
+import com.zerobank.utilities.BrowserUtils;
 import com.zerobank.utilities.ConfigurationReader;
 import com.zerobank.utilities.Driver;
 import org.openqa.selenium.By;
@@ -42,6 +43,7 @@ public class LoginPage extends PageBase {
         return errorMsg.getText().trim();
     }
     public void navigateTo(String page){
+        BrowserUtils.wait(3);
         WebElement element = driver.findElement(By.linkText(page));
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
