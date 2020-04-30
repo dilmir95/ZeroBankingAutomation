@@ -43,6 +43,7 @@ public class LoginPage extends PageBase {
     }
     public void navigateTo(String page){
         WebElement element = driver.findElement(By.linkText(page));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
     }
 }
