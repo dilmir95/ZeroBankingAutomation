@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber1.json",
                 "rerun:target/rerun.txt"
         },
-        tags = "@account_activity"
+        tags = "@pay_bills"
 )
 public class CukesRunner {
 
